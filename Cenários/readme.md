@@ -111,6 +111,8 @@
 
 **E** o número da conta aparece em tela
 
+**E** o saldo será de "R$ 0,00"
+
 -----
 
 ## Cenário 03 - Criando cadastro apenas com email
