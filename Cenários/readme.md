@@ -79,7 +79,7 @@
 
 **E** confirmamos esta senha
 
-**E** ativar a opção de "Criar conta com saldo ?"
+**E** ativamos a opção de "Criar conta com saldo ?"
 
 **QUANDO** clicarmos no botão "Cadastrar"
 
