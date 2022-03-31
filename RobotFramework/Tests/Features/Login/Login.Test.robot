@@ -15,8 +15,8 @@ Cenário 01: Efetuar login com credenciais inválidas
 
 Cenário 02: Efetuar login com credenciais válidas
     DADO que estamos na página inicial do BugBank
-    QUANDO digitarmos o e-mail
-    E digitarmos a senha
+    QUANDO digitarmos um e-mail cadastrado
+    E digitarmos uma senha válida
     E clicarmos no botão Acessar
     ENTÃO o login será realizado com sucesso
 

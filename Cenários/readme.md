@@ -19,9 +19,9 @@
 
 **DADO** que estamos na página inicial do BugBank
 
-**QUANDO** digitarmos o e-mail
+**QUANDO** digitarmos um e-mail cadastrado
 
-**E** digitarmos a senha
+**E** digitarmos uma senha válida
 
 **E** clicarmos no botão Acessar
 

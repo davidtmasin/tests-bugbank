@@ -7,6 +7,11 @@ Library            ScreenCapLibrary
 ${BROWSER}         chrome
 ${baseURL}         https://bugbank.netlify.app/
 
+${user1}           jailson@teste.com.br
+${password1}       teste1
+${user2}           paulo@teste.com.br
+${password2}       teste2
+
 ${LOWER}          qwertyuiopasdfghjklzxcvbnm
 ${UPPER}          QWERTYUIOPASDFGHJKLZXCVBNM
 ${LETTERS}        ${LOWER}${UPPER}
@@ -76,3 +81,19 @@ ENTÃO a mensagem de erro "${msgError02}" será visível em tela
 QUANDO clicarmos no botão Acessar
     Click Element                   //*[@id="btnAccess"]
     Sleep                           2
+
+QUANDO digitarmos um e-mail cadastrado
+    Click Element                   //*[@id="inputEmail"]
+    Input Text                      //*[@id="inputEmail"]       ${user2}
+    Sleep                           2
+
+E digitarmos uma senha válida
+    Click Element                   //*[@id="inputPassword"]
+    ${senha} =                      Input Text                      //*[@id="inputPassword"]    ${password2}
+    Log To Console                  ${senha}
+    Sleep                           2
+
+ENTÃO o login será realizado com sucesso
+    Should Be Title                 https://bugbank.netlify.app/home
+    Element Text Should Be          //p[text()='bem vindo ao BugBank :)']
+    Element Text Should Be          //*[@id="textBalance"][text()='Saldo em conta ']
