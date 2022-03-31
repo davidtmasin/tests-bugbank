@@ -1,8 +1,11 @@
 # Testando BugBank
 
-Este repositório contém cenários teste e implementações de scripts de teste que estarei trabalhando, a priori, com a ferramenta RobotFramework no projeto BugBank.
+Este repositório contém cenários de teste e implementações de scripts de teste que serão construídos, a priori, com a ferramenta RobotFramework, tomando como base, o projeto BugBank.
 
-O BugBank é um projeto open source para os QAs estudarem testes de front que chama BugBank, o banco com bugs e falhas do seu jeito.
+Feito da comunidade para a comunidade, BugBank veio para você QA/Tester/Automatizador que quer praticar o planejamento dos seus testes, execução de testes e automação em um ambiente quase real. O BugBank é um projeto open source para os QAs estudarem testes de front.
+
+Aproveite o banco com bugs e falhas do seu jeito ;)
+
 
 Veja mais em:
 
