@@ -13,5 +13,7 @@ Veja mais em:
 
 - [Site do BugBank](https://bugbank.netlify.app)
 
+- [Regras de negócio do BugBank](https://bugbank.netlify.app/requirements)
+
 -----
 
