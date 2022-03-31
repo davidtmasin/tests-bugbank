@@ -1,7 +1,7 @@
 
-## Funcionalidade 1: Login
+# Funcionalidade 1: Login
 
-### Cenário 01 - Efetuar login com credenciais inválidas
+## Cenário 01 - Efetuar login com credenciais inválidas
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -15,7 +15,7 @@
 
 -----
 
-### Cenário 02 - Efetuar login com credenciais válidas
+## Cenário 02 - Efetuar login com credenciais válidas
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -29,7 +29,7 @@
 
 -----
 
-### Cenário 03 - Efetuar login sem informar a senha
+## Cenário 03 - Efetuar login sem informar a senha
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -41,7 +41,7 @@
 
 -----
 
-### Cenário 04 - Efetuar login sem informar o e-mail
+## Cenário 04 - Efetuar login sem informar o e-mail
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -53,7 +53,7 @@
 
 -----
 
-### Cenário 05 - Efetuar login sem informar as credenciais
+## Cenário 05 - Efetuar login sem informar as credenciais
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -63,9 +63,9 @@
 
 -----
 
-## Funcionalidade 2: Cadastro
+# Funcionalidade 2: Cadastro
 
-### Cenário 01 - Criando cadastro com saldo ativo
+## Cenário 01 - Criando cadastro com saldo ativo
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -91,7 +91,7 @@
 
 -----
 
-### Cenário 02 - Criando cadastro com saldo inativo
+## Cenário 02 - Criando cadastro com saldo inativo
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -113,7 +113,7 @@
 
 -----
 
-### Cenário 03 - Criando cadastro apenas com email
+## Cenário 03 - Criando cadastro apenas com email
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -127,7 +127,7 @@
 
 -----
 
-### Cenário 04 - Criando cadastro apenas com nome
+## Cenário 04 - Criando cadastro apenas com nome
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -141,7 +141,7 @@
 
 -----
 
-### Cenário 05 - Criando cadastro apenas com nome e email
+## Cenário 05 - Criando cadastro apenas com nome e email
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -157,7 +157,7 @@
 
 -----
 
-### Cenário 06 - Criando cadastro sem confirmar a senha
+## Cenário 06 - Criando cadastro sem confirmar a senha
 
 **DADO** que estamos na página inicial do BugBank
 
@@ -175,7 +175,7 @@
 
 -----
 
-### Cenário 07 - Criando cadastro com senha diferente do confirmar senha
+## Cenário 07 - Criando cadastro com senha diferente do confirmar senha
 
 **DADO** que estamos na página inicial do BugBank
 
